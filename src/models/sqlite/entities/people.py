@@ -12,7 +12,7 @@ class PeopleTable(Base):
 
     def __repr__(self):
         return (
-            f"People first_name={self.first_name}, "
+            f"People [first_name={self.first_name}, "
             f"last_name={self.last_name}, "
             f"age={self.age}, "
             f"pet_id={self.pet_id}]"
