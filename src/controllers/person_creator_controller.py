@@ -14,9 +14,9 @@ class PersonCreatorController:
 
         self.__validate_first_name_and_last_name(first_name, last_name)
         self.__insert_person_in_db(first_name, last_name, age, pet_id)
-        formated_response = self.__format_response(person_info)
+        formatted_response = self.__format_response(person_info)
 
-        return formated_response
+        return formatted_response
 
     def __validate_first_name_and_last_name(self, first_name: str, last_name: str) -> None:
         # Creating a regex that contains only invalid characters
