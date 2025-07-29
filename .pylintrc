@@ -8,6 +8,7 @@ disable=
     E0015, # Unrecognized Option
     R0903, # Too few public methods
     C0321, # Multiple statements
+    W0719, # Broad exception raised
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
