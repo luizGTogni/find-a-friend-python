@@ -22,7 +22,7 @@ class PeopleRepository:
                 raise exception
 
     def get_person(self, person_id: int) -> PeopleTable:
-        with self.__db_connection() as database:
+        with self.__db_connection as database:
             try:
                 person = (
                     database.session
