@@ -1,3 +1,4 @@
+annotated-types==0.7.0
 astroid==3.3.11
 blinker==1.9.0
 cfgv==3.4.0
@@ -22,6 +23,8 @@ packaging==25.0
 platformdirs==4.3.8
 pluggy==1.6.0
 pre_commit==4.2.0
+pydantic==2.11.7
+pydantic_core==2.33.2
 Pygments==2.19.2
 pylint==3.3.7
 pytest==8.4.1
@@ -29,6 +32,7 @@ pytest-mock==3.14.1
 PyYAML==6.0.2
 SQLAlchemy==2.0.41
 tomlkit==0.13.3
+typing-inspection==0.4.1
 typing_extensions==4.14.1
 virtualenv==20.32.0
 Werkzeug==3.1.3
